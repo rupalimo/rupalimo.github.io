@@ -1,0 +1,47 @@
+:root {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: crosshair;
+  margin: 0;
+  padding: 0;
+  /*--web-smoothing*/
+}
+
+html {
+
+}
+
+body, html {
+
+  padding: 0;
+
+}
+
+body {
+
+  width: 100vw;
+  display: grid;
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline;
+  margin: 0 auto;
+  line-height: 48px;
+}
+
+section {
+  /* width: 100%; */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+}
+section, img {
+  position: absolute;
+  margin: 0 auto;
+
+  z-index: -1;
+  /* opacity: 0; */
+
+}
