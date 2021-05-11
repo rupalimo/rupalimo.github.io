@@ -16,16 +16,45 @@ body {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+
     }
+
+p {
+  display: grid;
+  width: auto;
+  height: auto;
+  margin: 0;
+  /* width: 100vw;
+  height: 100vh;
+  z-index: -1; */
+}
 
 section {
   background-color: yellow;
-
   opacity: 0;
 }
 
 section:hover {
-  background-color: yellow;
+  background: yellow;
+  border-radius: 2em;
   opacity: 1;
 }
+
+a {
+  text-decoration: none;
+  color: blue;
+  cursor: crosshair;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+  )
+/* .spotlight:hover {
+  background: orangered;
+  border-radius: 2em;
+  opacity: 1;
+} */
