@@ -1,0 +1,115 @@
+:root {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 16px;
+  /* cursor: grab; */
+  margin: 0;
+  padding: 0;
+}
+
+/* span {
+ color: black
+} */
+
+html, body {
+  margin: 0.25em;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+    width: 50vw;
+    height: 2em;
+    overflow: hidden;
+    position: relative;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #0808081f;
+    border-radius: 2em;
+    box-shadow: inset -1px -1px 1vmin 0.2vmin rgb(0 0 0 / 40%);
+}
+
+section {
+  white-space: nowrap;
+  position: absolute;
+  width: fit-content;
+  margin: 0;
+  line-height: 2em;
+  text-align: center;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 300s linear infinite;
+  -webkit-animation: scroll-left 300s linear infinite;
+  animation: scroll-left 300s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+/* nav {
+  background-color: white;
+  border-bottom: 1px solid;
+  display: block;
+  min-width: 550px;
+  width: inherit;
+  padding: 0.5em 0em 0.75em 0;
+  margin: 0.25em 0;
+}
+
+ul {
+  width: inherit;
+  height: 24px;
+  white-space: nowrap;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  color:black;
+  position: fixed;
+}
+
+/* rotate 90  */
+/* span {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+} */
