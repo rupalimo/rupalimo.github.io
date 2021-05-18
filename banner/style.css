@@ -17,24 +17,39 @@ html, body {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+  background: url("/Users/rupali.morzaria/Documents/rupali/workshops and tutorials/index space/intro to coding/public/rupalimo.github.io/images/face-scroll.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+section {
+  display: grid;
+  /* grid-template-columns: 50% 50%; */
+  height: inherit;
+  grid-auto-rows: 80%;
+  align-items: end;
+
 }
 
 main {
-    width: 50vw;
-    height: 2em;
+    margin: 0 auto;
+    min-width: 2em;
+    width: 10vw;
+    height: 3em;
     overflow: hidden;
     position: relative;
     background: #FFFFFF;
     color: #000000;
     border: 1px solid #0808081f;
-    border-radius: 2em;
-    box-shadow: inset -1px -1px 1vmin 0.2vmin rgb(0 0 0 / 40%);
+    border-radius: 100%;
+    box-shadow: inset -1px -1px 1vmin 0.2vmin rgb(255 37 208);
+    z-index: 999;
 }
 
-section {
+pre {
   white-space: nowrap;
   position: absolute;
   width: fit-content;
