@@ -1,0 +1,54 @@
+html {
+  margin-left: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+div {
+  position: absolute;
+  mix-blend-mode: multiply;
+  z-index: 9;
+  cursor: move;
+}
+
+/* section:first-child::before {
+  content: "";
+  height: inherit;
+  width: 10vw;
+  color: aquamarine;
+  z-index: 999;
+  float: left;
+}
+
+section:last-child-child::after {
+  content: "";
+  height: inherit;
+  width: 10vw;
+  color: aquamarine;
+  z-index: 999;
+  float: right;
+} */
+.demo {
+  display: none;
+}
+
+section {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-height: 50vh;
+  width: auto;
+}
+
+img:last-of-type {
+  margin: 0 0 0 -10px;
+}
