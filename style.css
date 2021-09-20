@@ -10,7 +10,7 @@
 html, body {
   padding: 0;
   /* cursor: url(/images/cursor_black.png), default; */
-    }
+}
 
 ul {
   display: flex;
@@ -30,10 +30,9 @@ li {
   padding: 2em;
 }
 
-/* .demo {
+.demo {
   display: none;
-} */
-
+}
 
 a {
   text-decoration: none;
