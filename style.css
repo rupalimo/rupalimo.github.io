@@ -1,12 +1,13 @@
 :root {
   --primary-font: "Arial", sans-serif;
-  --secondary-font: serif;
+  --secondary-font: "Times New Roman", serif;
   --text-color: #000;
   --text-color-secondary: #FFF;
   --accent-color: #8B6C38;
   font-family: var(--primary-font);
   color: var(--text-color);
   font-size: 1em;
+  cursor: none;
 }
 
 ::selection {
@@ -32,8 +33,16 @@ p, a {
   margin: 0;
 }
 
+p span {
+  display: none;
+}
+
 p:hover {
-  cursor: default;
+  cursor: none;
+}
+
+p:hover span {
+  display: inline;
 }
 
 a {
@@ -42,6 +51,16 @@ a {
 }
 
 a:hover {
-  color: #8B6C38;
-  cursor: auto;
+  /* color: #8B6C38; */
+  cursor: pointer;
+  font-family: var(--secondary-font);
+}
+
+/* 
+.hidden {
+  display: none;
+} */
+main {
+  position: absolute;
+  z-index: -10;
 }
