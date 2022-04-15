@@ -52,11 +52,11 @@ a {
 
 a:hover {
   /* color: #8B6C38; */
-  cursor: pointer;
+  cursor: none;
   font-family: var(--secondary-font);
 }
 
-/* 
+/*
 .hidden {
   display: none;
 } */
