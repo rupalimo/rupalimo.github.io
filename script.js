@@ -7,7 +7,7 @@ background(255);
 
 function draw() {
 
-    background(255);
+
   noStroke();
   fill(mouseX/11, mouseY/5, mouseY/5, 10);
   circle(mouseX-1, mouseY-3, 5);
