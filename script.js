@@ -9,7 +9,7 @@ function draw() {
 
 
   noStroke();
-  fill(mouseX/11, mouseY/5, mouseY/5, 10);
+  fill(mouseX, mouseX/2, mouseX/5, 10);
   circle(mouseX-1, mouseY-3, 5);
 
   //   background(255);
