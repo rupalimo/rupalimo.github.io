@@ -1,3 +1,19 @@
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*SELECTION*/
+::-moz-selection {
+  color: #9C7547;
+  background: transparent;
+}
+
+::selection {
+  color: var(--text-color-secondary);
+  background: var(--text-color);
+}
+
 :root {
   --primary-font: "Arial", sans-serif;
   --secondary-font: "Times New Roman", serif;
@@ -8,11 +24,6 @@
   color: var(--text-color);
   font-size: 1em;
   cursor: none;
-}
-
-::selection {
-  background: var(--text-color);
-  color: var(--text-color-secondary);
 }
 
 html, body {
