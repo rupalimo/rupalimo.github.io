@@ -11,8 +11,7 @@ function draw() {
   noStroke();
   fill(mouseX / 3, mouseX / 6, mouseY/2, 229);
   //updated apr 14, 2023
-    circle(mouseX-1, mouseY-1, 6*noise(frameCount/mouseX));
-  
+      circle(mouseX-1, mouseY-1, 12*noise(frameCount/mouseX + mouseY/2));
 
  // circle(mouseX-1, mouseY-3, 5);
 
