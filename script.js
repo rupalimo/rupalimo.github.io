@@ -26,3 +26,12 @@ function draw() {
   // rectMode(CENTER);
   // rect(mouseX, mouseY, 200, 20, 8);
 }
+
+function mousePressed() {
+   background(mouseY / 2, mouseX/2, mouseX/5, 150);
+//background(255);
+}
+
+function mouseReleased() {
+   background(255);
+}
