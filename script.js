@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
 background(255);
+    frameRate(120);
 }
 
 
@@ -10,7 +11,10 @@ function draw() {
 
   noStroke();
   fill(mouseX / 3, mouseX / 6, mouseY/2, 229);
-  circle(mouseX-1, mouseY-3, 5);
+  //updated apr 14, 2023
+      circle(mouseX-1, mouseY-1, 12*noise(frameCount/mouseX + mouseY));
+
+ // circle(mouseX-1, mouseY-3, 5);
 
   //   background(255);
   // fill(mouseX/8, mouseY/3, mouseY/3);
@@ -22,4 +26,13 @@ function draw() {
   // fill(255);
   // rectMode(CENTER);
   // rect(mouseX, mouseY, 200, 20, 8);
+}
+
+function mousePressed() {
+   background(mouseY / 2, mouseX/2, mouseX/5, 150);
+//background(255);
+}
+
+function mouseReleased() {
+   background(255);
 }
