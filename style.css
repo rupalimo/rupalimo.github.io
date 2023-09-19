@@ -50,9 +50,6 @@ p span {
 	display: none;
 }
 
-p:hover {
-	cursor: none;
-}
 
 p:hover span {
 	display: inline;
