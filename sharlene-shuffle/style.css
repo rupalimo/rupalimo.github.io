@@ -37,17 +37,18 @@
 }
 
 .music-titles .friend {
-	margin-top:0;
-	color: green;
+	font-style: italic;
 }
 
 .friend::before {
 	content: "(sent from ";
+	font-style: normal;
 
 }
 
 .friend::after {
 	content: ")";
+	font-style: normal;
 
 }
 
