@@ -16,8 +16,8 @@
 
 .content {
   width: 80vw;
-  margin: 0 auto;
-  border: 1px solid;
+  margin: 1em auto;
+  border: 1px solid greenyellow;
   padding: 1em;
 }
 .music-titles {
