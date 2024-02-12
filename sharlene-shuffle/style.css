@@ -15,8 +15,10 @@
 }
 
 .top-bar {
-	/* border-bottom: 1px solid var(--green-color); */
-	padding: 1em;
+	    width: inherit;
+
+	display: flex;
+    justify-content: center;
 }
 
 .music-titles {
@@ -125,5 +127,11 @@
 	border: 1px outset var(--green-color);
 	text-align: center;
 	padding: 4em 0;
+}
 
+video {
+	width: inherit;
+	height: auto;
+    max-width: 228px;
+    margin: 0 auto 2em;
 }
