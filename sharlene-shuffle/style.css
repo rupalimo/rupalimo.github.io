@@ -20,13 +20,37 @@
   border: 1px solid greenyellow;
   padding: 1em;
 }
+
 .music-titles {
 	text-align: center;
+}
+.music-titles .title {
+	display:inline-block;
+	text-transform: uppercase;
+}
+.music-titles .artist {
+	display:inline-block;
 }
 
 .artist::before {
 	content: 'by ';
 }
+
+.music-titles .friend {
+	margin-top:0;
+	color: green;
+}
+
+.friend::before {
+	content: "(sent from ";
+
+}
+
+.friend::after {
+	content: ")";
+
+}
+
 .progress-details {
 	width: 100%;
 	height: 1rem;
