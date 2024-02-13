@@ -15,10 +15,10 @@
 }
 
 .top-bar {
-	    width: inherit;
+	width: inherit;
 
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .music-titles {
@@ -46,7 +46,7 @@
 	border-left: 1px solid var(--green-color);
 	border-radius: 0 0 3em 3em;
 	margin: 0;
-    padding: 0.25em 0.5em 0.5em 0.5em;
+	padding: 0.25em 0.5em 0.5em 0.5em;
 }
 
 .artist::before {
@@ -68,7 +68,6 @@
 	padding: 1em;
 	border-right: 1px solid var(--green-color);
 	border-left: 1px solid var(--green-color);
-
 }
 .progress-details {
 	height: 1rem;
@@ -125,35 +124,32 @@
 	margin-top: 0.25em;
 	text-transform: uppercase;
 	border: 1px solid var(--green-color);
-	color: var(--green-color)
-
+	color: var(--green-color);
 }
 .control-btn div:hover {
 	cursor: pointer;
-border: 1px solid white;
+	border: 1px solid white;
 	background-color: var(--green-color);
-	color:white;
+	color: white;
 }
 .control-btn div:active {
 	border: 1px inset var(--green-color);
-text-transform: uppercase;
+	text-transform: uppercase;
 	font-style: italic;
 	cursor: grabbing;
 }
 
 .control-btn div:nth-of-type(1) {
 	margin-right: 0.125em;
-
 }
 
 .control-btn div:nth-of-type(2) {
 	margin-left: 0.125em;
-
 }
 
 img {
-    height: 15vh;
-    width: 80vw;
-    max-width: 420px;
-    margin: 1em auto;
+	height: 15vh;
+	width: 80vw;
+	max-width: 420px;
+	margin: 1em auto;
 }
