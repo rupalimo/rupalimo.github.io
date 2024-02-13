@@ -5,6 +5,8 @@ const content = document.querySelector('.content'),
 
 let index = 9;
 
+console.log("hello");
+
 window.addEventListener('onload', () => {
 	loadData(index);
 });
