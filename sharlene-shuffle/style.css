@@ -64,12 +64,6 @@
 	font-style: normal;
 }
 
-.friend::after {
-	content: ' (^-^)';
-	font-style: normal;
-	color: var(--green-color);
-}
-
 .progress-wrapper {
 	padding: 1em;
 	border-right: 1px solid var(--green-color);
