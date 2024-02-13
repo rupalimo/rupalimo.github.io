@@ -111,6 +111,7 @@
 	padding: 0 1em 1em 1em;
 	border-right: 1px solid var(--green-color);
 	border-left: 1px solid var(--green-color);
+	border-bottom: 1px solid var(--green-color);
 }
 
 .control-btn {
@@ -126,12 +127,13 @@
 	width: 50%;
 	border: 1px outset var(--green-color);
 	text-align: center;
-	padding: 4em 0;
+	padding: 1em 0;
+	margin-top: 0.25em;
 }
 
 img {
-	width: inherit;
-	height: auto;
-    max-width: 228px;
-    margin: 3em auto 3em;
+    height: 15vh;
+    width: 80vw;
+    max-width: 420px;
+    margin: 1em auto;
 }
