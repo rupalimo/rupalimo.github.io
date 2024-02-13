@@ -119,10 +119,26 @@
 
 .control-btn div {
 	width: 50%;
-	border: 1px outset var(--green-color);
+
 	text-align: center;
 	padding: 10vh 0;
 	margin-top: 0.25em;
+	text-transform: uppercase;
+	border: 1px solid var(--green-color);
+	color: var(--green-color)
+
+}
+.control-btn div:hover {
+	cursor: pointer;
+border: 1px solid white;
+	background-color: var(--green-color);
+	color:white;
+}
+.control-btn div:active {
+	border: 1px inset var(--green-color);
+text-transform: uppercase;
+	font-style: italic;
+	cursor: grabbing;
 }
 
 .control-btn div:nth-of-type(1) {
