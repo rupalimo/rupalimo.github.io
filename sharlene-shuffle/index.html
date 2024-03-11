@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+
+		<title>sharlene-shuffle</title>
+	</head>
+	<body>
+		<div class="content">
+			<div class="top-bar"></div>
+			<div class="image-wrapper">
+				<div class="music-image">
+					<img src="looped.gif" title="sharlene shuffle" />
+				</div>
+			</div>
+			<div class="music-titles">
+				<span>
+					<p class="name">song</p>
+					<p class="artist">artist</p>
+				</span>
+
+				<p class="friend">Your Name</p>
+			</div>
+			<div class="progress-wrapper">
+				<div class="progress-details">
+					<div class="progress-bar">
+						<span></span>
+					</div>
+				</div>
+				<!-- <div class="progress-details">
+				<div class="progress-bar">
+					<span></span>
+				</div> -->
+				<div class="time">
+					<span class="current">0:00</span>
+					<span class="final">00:30</span>
+				</div>
+			</div>
+			<div class="control-btn">
+				<!-- <span class="material-symbols-rounded" id="repeat">repeat</span> -->
+				<!-- <span class="material-symbols-rounded" id="prev">prev</span> -->
+				<div class="material-symbols-rounded" id="shuffle">shuffle</div>
+				<div class="play-pause">
+					<span class="material-symbols-rounded">play</span>
+				</div>
+				<!-- <span class="material-symbols-rounded" id="next">next</span> -->
+			</div>
+		</div>
+
+		<audio src="music/music1.mp3" class="main-song"></audio>
+
+		<script src="js/playlist.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

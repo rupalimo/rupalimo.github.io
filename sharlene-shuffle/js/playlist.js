@@ -1,163 +1,374 @@
 let songs = [
+	// RUPALI
 	{
-		// RUPALI
-		title: 'Joker Lover',
-		artist: 'Angela Prince',
+		name: 'joker lover',
+		artist: 'angela prince',
+		audio: 'rupali1',
 		friend: 'Rupali',
-		audio: 'music1',
 	},
 	{
-		title: 'It Was My Fault',
-		artist: 'Verna Lee With The Aces',
-		friend: 'Rupali',
-		audio: 'music2',
-	},
-	{
-		title: 'How Can I Ease The Pain',
+		name: 'How Can I Ease The Pain',
 		artist: 'Lisa Fischer',
+		audio: 'rupali2',
 		friend: 'Rupali',
-		audio: 'music3',
+	},
+	{
+		name: 'Jah Children Cry',
+		artist: 'African Princess',
+		audio: 'rupali3',
+		friend: 'Rupali',
+	},
+	{
+		name: 'It Was My Fault',
+		artist: 'Verna Lee With The Aces',
+		audio: 'rupali4',
+		friend: 'Rupali',
 	},
 
 	// TONY
 	{
-		title: 'Until It’s Time For You To Go',
+		name: 'Until It’s Time For You To Go',
 		artist: 'Buffy St Marie',
+		audio: 'tony1',
 		friend: 'Tony',
-		audio: 'music4',
 	},
 	{
-		title: 'A case of You',
-		artist: 'Fado singer Anna Moura',
+		name: 'A case of You',
+		artist: 'Ana Moura',
+		audio: 'tony2',
 		friend: 'Tony',
-		audio: 'music5',
 	},
 	{
-		title: 'You and I',
+		name: 'You and I',
 		artist: 'Stevie Wonder',
+		audio: 'tony3',
 		friend: 'Tony',
-		audio: 'music6',
 	},
 	{
-		title: 'what’s going on',
+		name: 'what’s going on',
 		artist: 'Marvin Gaye',
+		audio: 'tony4',
 		friend: 'Tony',
-		audio: 'music7',
 	},
 
 	// ALE
 	{
-		title: 'the future',
+		name: 'the future',
 		artist: 'austra',
+		audio: 'ale1',
 		friend: 'Ale',
-		audio: 'music8',
 	},
 	{
-		title: 'balloons',
+		name: 'balloons',
 		artist: 'noname ft jay electronica',
+		audio: 'ale2',
 		friend: 'Ale',
-		audio: 'music9',
 	},
 	{
-		title: 'buka dansa',
+		name: 'buka dansa',
 		artist: 'kokoko!',
+		audio: 'ale3',
 		friend: 'Ale',
-		audio: 'music10',
 	},
 
 	// KOLE
 	{
-		title: 'I want to break free',
+		name: 'I want to break free',
 		artist: 'queen',
+		audio: 'kole1',
 		friend: 'Kole',
-		audio: 'music11',
 	},
 	// NAHED
 	{
-		title: 'Marwan moussa',
+		name: 'Marwan moussa',
 		artist: 'batal 3alam',
+		audio: 'nahed1',
 		friend: 'Nahed',
-		audio: 'music12',
 	},
 	// NADI
 	{
-		title: 'SpongeBob square pants theme song',
-		artist: '<3',
+		name: 'SpongeBob square pants theme song',
+		artist: 'SpongeBob',
+		audio: 'nadi1',
 		friend: 'Nadi',
-		audio: 'music13',
 	},
 	// MO
 	{
-		title: 'The Fields',
+		name: 'The Fields',
 		artist: 'Nourished By Time',
+		audio: 'mo1',
 		friend: 'Mo',
-		audio: 'music14',
 	},
-	// alexis mitchell
+
+	// ALEXIS
 	{
-		title: 'Andreaen Sand Dunes',
+		name: 'Andreaen Sand Dunes',
 		artist: 'Drexciya',
+		audio: 'alexis1',
 		friend: 'Alexis',
-		audio: 'music15',
 	},
 	{
-		title: 'Smalltown Boy',
+		name: 'Smalltown Boy',
 		artist: 'Bronski Beat',
+		audio: 'alexis2',
 		friend: 'Alexis',
-		audio: 'music16',
 	},
 	{
-		title: 'Baby',
+		name: 'Baby',
 		artist: 'Bieber',
+		audio: 'alexis3',
 		friend: 'Alexis',
-		audio: 'music17',
 	},
 	{
-		title: 'Sweet Harmony',
+		name: 'Sweet Harmony',
 		artist: 'Liquid',
+		audio: 'alexis4',
 		friend: 'Alexis',
-		audio: 'music18',
 	},
 	{
-		title: 'J’adore',
-		artist: ' jamesjamesjames',
+		name: 'J’adore',
+		artist: 'jamesjamesjames',
+		audio: 'alexis5',
 		friend: 'Alexis',
-		audio: 'music19',
 	},
 	{
-		title: 'Ghosts',
+		name: 'Ghosts',
 		artist: 'two shell',
+		audio: 'alexis6',
 		friend: 'Alexis',
-		audio: 'music20',
 	},
 	{
-		title: 'Bad girls',
+		name: 'Bad girls',
 		artist: 'surusinghe',
+		audio: 'alexis7',
 		friend: 'Alexis',
-		audio: 'music21',
 	},
 	{
-		title: 'Holy Dance',
-		artist: 'Ague Re',
+		name: 'Holy Dance',
+		artist: 'Agua Re',
+		audio: 'alexis8',
 		friend: 'Alexis',
-		audio: 'music22',
 	},
 	{
-		title: 'Gratefull',
+		name: 'Grateful',
 		artist: 'Kush Jones',
+		audio: 'alexis9',
 		friend: 'Alexis',
-		audio: 'music23',
 	},
 	{
-		title: 'Set the Roof',
-		artist: 'Hudson Mohawke',
+		name: 'Set the Roof',
+		artist: 'Hudson mohawke',
+		audio: 'alexis10',
 		friend: 'Alexis',
-		audio: 'music24',
 	},
 	{
-		title: 'Can’t play myself',
-		artist: 'Askepta, Amy winehouse',
+		name: 'Can’t play myself',
+		artist: 'skepta',
+		audio: 'alexis11',
 		friend: 'Alexis',
-		audio: 'music25',
+	},
+	// XENIA
+	{
+		name: 'meryl',
+		artist: 'coucou',
+		audio: 'xenia1',
+		friend: 'Xenia',
+	},
+	{
+		name: 'La Nuit N En Finit Plus',
+		artist: 'Petula Clark',
+		audio: 'xenia2',
+		friend: 'Xenia',
+	},
+	// SASHA
+	{
+		name: 'plastic off the sofa',
+		artist: 'beyoncé',
+		audio: 'sasha1',
+		friend: 'Sasha',
+	},
+	{
+		name: 'rider',
+		artist: 'mereba',
+		audio: 'sasha2',
+		friend: 'Sasha',
+	},
+
+	// MUH
+	{
+		name: 'deeper and deeper',
+		artist: 'Madonna',
+		audio: 'muh1',
+		friend: 'Muhammad',
+	},
+	// NAT
+	{
+		name: 'Prayer',
+		artist: 'Bon Jov',
+		audio: 'nat1',
+		friend: 'Nat',
+	},
+	{
+		name: 'Break Free',
+		artist: 'Queen',
+		audio: 'nat2',
+		friend: 'Nat',
+	},
+	// INDU
+	{
+		name: 'Like A Virgin',
+		artist: 'madonna',
+		audio: 'indu1',
+		friend: 'Indu',
+	},
+
+	// ATHINA
+	{
+		name: 'tu sicaria',
+		artist: 'mis nina, beauty brain',
+		audio: 'athina1',
+		friend: 'Athina',
+	},
+	{
+		name: 'love nwantiti',
+		artist: 'CKay',
+		audio: 'athina2',
+		friend: 'Athina',
+	},
+	{
+		name: 'yonaguni',
+		artist: 'Bad bunny',
+		audio: 'athina3',
+		friend: 'Athina',
+	},
+	{
+		name: 'TNT',
+		artist: 'Nayana IZ',
+		audio: 'athina4',
+		friend: 'Athina',
+	},
+	{
+		name: 'Break it off',
+		artist: 'PinkPantheress',
+		audio: 'athina5',
+		friend: 'Athina',
+	},
+	{
+		name: 'Jasmine',
+		artist: 'Jai Paul',
+		audio: 'athina6',
+		friend: 'Athina',
+	},
+	{
+		name: 'Holding On',
+		artist: 'Tirzah',
+		audio: 'athina7',
+		friend: 'Athina',
+	},
+	{
+		name: 'La Quebrada',
+		artist: 'Terror/Cactus',
+		audio: 'athina8',
+		friend: 'Athina',
+	},
+
+	// DIMA
+	{
+		name: 'Till We Die, Inshallah',
+		artist: 'DRAMA',
+		audio: 'dima1',
+		friend: 'Dima',
+	},
+	{
+		name: 'Ena w Lil',
+		artist: 'NORDO',
+		audio: 'dima2',
+		friend: 'Dima',
+	},
+	{
+		name: 'Slow Down',
+		artist: 'Skip Marley, H.E.R.',
+		audio: 'dima3',
+		friend: 'Dima',
+	},
+	{
+		name: 'Como Me Quieres',
+		artist: 'Khruangbin',
+		audio: 'dima4',
+		friend: 'Dima',
+	},
+	{
+		name: 'Tesadaa',
+		artist: 'Talal Madah',
+		audio: 'dima5',
+		friend: 'Dima',
+	},
+	{
+		name: 'Dima Labes',
+		artist: 'Klay BBJ, Rayen',
+		audio: 'dima6',
+		friend: 'Dima',
+	},
+	{
+		name: 'Who Knows Where the Time Goes',
+		artist: 'Nina Simone',
+		audio: 'dima7',
+		friend: 'Dima',
+	},
+	{
+		name: 'Holy Dance',
+		artist: 'Agua Re',
+		audio: 'dima8',
+		friend: 'Dima',
+	},
+
+	// RAZAN
+	{
+		name: 'zamel',
+		artist: 'bedouin burger',
+		audio: 'raz1',
+		friend: 'Razan',
+	},
+	{
+		name: 'tarab dub',
+		artist: 'hello psychaleppo',
+		audio: 'raz2',
+		friend: 'Razan',
+	},
+	{
+		name: 'bahlam maak',
+		artist: 'ritza',
+		audio: 'raz3',
+		friend: 'Razan',
+	},
+	{
+		name: 'tango',
+		artist: 'soapkills',
+		audio: 'raz4',
+		friend: 'Razan',
+	},
+	{
+		name: 'radio romance',
+		artist: 'mashrou leila',
+		audio: 'raz5',
+		friend: 'Razan',
+	},
+	{
+		name: 'tartaqa',
+		artist: 'makimakkuk',
+		audio: 'raz6',
+		friend: 'Razan',
+	},
+	{
+		name: 'nijmet el-subeh',
+		artist: 'sanaa moussa',
+		audio: 'raz7',
+		friend: 'Razan',
+	},
+	{
+		name: 'do you love me?',
+		artist: 'bendaly family',
+		audio: 'raz8',
+		friend: 'Razan',
 	},
 ];
