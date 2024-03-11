@@ -371,4 +371,30 @@ let songs = [
 		audio: 'raz8',
 		friend: 'Razan',
 	},
+
+	// AADITYA
+	{
+		name: 'why',
+		artist: 'annie lennox',
+		audio: 'aadi1',
+		friend: 'Aaditya',
+	},
+	{
+		name: 'boom boom',
+		artist: 'nazia hassan',
+		audio: 'aadi2',
+		friend: 'Aaditya',
+	},
+	{
+		name: 'borderline',
+		artist: 'madonna',
+		audio: 'aadi3',
+		friend: 'Aaditya',
+	},
+	{
+		name: 'criminal',
+		artist: 'fiona apple',
+		audio: 'aadi4',
+		friend: 'Aaditya',
+	},
 ];
