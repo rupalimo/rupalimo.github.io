@@ -221,6 +221,12 @@ let songs = [
 		audio: 'indu1',
 		friend: 'Indu',
 	},
+	{
+		name: 'Disco Deewane',
+		artist: 'Nazia Hassan',
+		audio: 'indu2',
+		friend: 'Indu',
+	},
 
 	// ATHINA
 	{
