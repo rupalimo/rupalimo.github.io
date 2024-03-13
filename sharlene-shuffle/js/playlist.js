@@ -403,4 +403,49 @@ let songs = [
 		audio: 'aadi4',
 		friend: 'Aaditya',
 	},
+	// LUCAS
+	{
+		name: 'Not The Day',
+		artist: 'WILL LAUT ft. Joe Orrach',
+		audio: 'lucas1',
+		friend: 'Lucas',
+	},
+	{
+		name: 'Transcendental Access Point',
+		artist: 'Eris Drew',
+		audio: 'lucas2',
+		friend: 'Lucas',
+	},
+	{
+		name: 'Kerala',
+		artist: 'Bonobo',
+		audio: 'lucas3',
+		friend: 'Lucas',
+	},
+
+	// ERIC
+	{
+		name: 'work to do',
+		artist: 'the isley brothers',
+		audio: 'eric1',
+		friend: 'Eric',
+	},
+	{
+		name: 'im a ram',
+		artist: 'al green',
+		audio: 'eric2',
+		friend: 'Eric',
+	},
+	{
+		name: 'by the light of the magical moon',
+		artist: 'marc bolan t.rex',
+		audio: 'eric3',
+		friend: 'Eric',
+	},
+	{
+		name: 'future games',
+		artist: 'fleetwood mac',
+		audio: 'eric4',
+		friend: 'Eric',
+	},
 ];
