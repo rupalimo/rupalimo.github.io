@@ -24,7 +24,18 @@ let songs = [
 		audio: 'rupali4',
 		friend: 'Rupali',
 	},
-
+	{
+		name: 'Thiloththama',
+		artist: 'Swarnalatha, S. P. Balasubrahmanyam, Deva',
+		audio: 'rupali5',
+		friend: 'Rupali',
+	},
+	{
+		name: 'Poraale Ponnuthayi (Sad)',
+		artist: 'Swarnalatha',
+		audio: 'rupali6',
+		friend: 'Rupali',
+	},
 	// TONY
 	{
 		name: 'Until It’s Time For You To Go',
